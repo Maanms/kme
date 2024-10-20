@@ -65,7 +65,7 @@ async def start(client: Client, message: Message):
     )
 
 
-@Client.on_message(commandpro(["السورس", "source"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["وﮪﹻـ̶⃪ﹻ℘ِﹻـم", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://te.legra.ph/file/6111837a4b2586e21e96c.jpg",
@@ -74,7 +74,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "مطۅࢪ اެݪسۅࢪس", url=f"https://t.me/RR8R9")
+                        "مطۅࢪ اެݪسۅࢪس", url=f"https://t.me/M_S_MP")
                 ]
             ]
         ),
